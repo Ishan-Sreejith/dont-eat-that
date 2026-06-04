@@ -52,6 +52,3 @@ Edit `config/dont-eat-that.json` after running the mod once:
 - Fabric Loader 0.19.2 or later
 - Fabric API 0.97.3 or later
 
-## License
-
-This project is available under the CC0 1.0 Universal license.
