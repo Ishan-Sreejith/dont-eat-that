@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "dont-eat-that",
+	"version": "${version}",
+	"name": "Don't Eat That",
+	"description": "A comprehensive nutrient system with 7 nutrient types. Eat a balanced diet to gain status effects, or indulge in cactus for a dangerous thorns body curse.",
+	"authors": [
+		"YourName"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/...",
+		"sources": "https://github.com/..."
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/dont-eat-that/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"name.modid.DontEatThat"
+		],
+		"client": [
+			"name.modid.client.DontEatThatClient"
+		]
+	},
+	"mixins": [
+		"dont-eat-that.mixins.json",
+		{
+			"config": "dont-eat-that.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "dont-eat-that:seed_block"
+  },
+  "result": "dont-eat-that:fiber",
+  "experience": 0.2,
+  "cookingtime": 200
+}
